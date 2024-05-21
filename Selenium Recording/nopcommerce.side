@@ -1,0 +1,262 @@
+{
+  "id": "fa06ce42-5186-4dd8-aecb-c5af1a675c6d",
+  "version": "2.0",
+  "name": "nopcommerce",
+  "url": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+  "tests": [{
+    "id": "3a0e34d3-1bf9-4879-a77c-d3998c9926a8",
+    "name": "nopcommerce",
+    "commands": [{
+      "id": "af44928c-e76b-4b9d-a931-2128c6989395",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.nopcommerce.com/login?returnUrl=%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4887886f-6c5e-41a3-96cb-8de550bacfcb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1133fd3a-0715-467a-956b-e1a54768209b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Computers",
+      "targets": [
+        ["linkText=Computers", "linkText"],
+        ["css=.notmobile > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Computers')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/computers')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Computers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "760bcbc2-176d-47a6-ad5a-cb28cb53a4fa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Electronics",
+      "targets": [
+        ["linkText=Electronics", "linkText"],
+        ["css=.notmobile > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Electronics')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/electronics')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5008b2d8-238b-44f3-be8f-dda36addeb6c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Apparel",
+      "targets": [
+        ["linkText=Apparel", "linkText"],
+        ["css=.notmobile > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Apparel')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/apparel')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Apparel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dfec703-19d7-4def-8aeb-a813e6019a65",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Books",
+      "targets": [
+        ["linkText=Books", "linkText"],
+        ["css=.notmobile > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Books')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/books')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Books')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed6db1f9-f5fb-435a-98f6-f216d87e1d54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.ico-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login?returnUrl=%2Fbooks')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6e03578-0163-45d1-aea3-3e7971b403fa",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "manishtyagi@gmail.com"
+    }, {
+      "id": "f531b5f5-939f-417b-860b-47dda9079888",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div[2]/div/div[2]/form/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1524826373"
+    }, {
+      "id": "3c61d628-6810-48f5-8252-536872906ddf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-button",
+      "targets": [
+        ["css=.login-button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div/div[2]/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5364ca7e-87db-40a4-9385-c21b958a5960",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Digital downloads",
+      "targets": [
+        ["linkText=Digital downloads", "linkText"],
+        ["css=.notmobile > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Digital downloads')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/digital-downloads')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Digital downloads')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0df1c69-757e-4f87-bb30-08cbcded7e8e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gift Cards",
+      "targets": [
+        ["linkText=Gift Cards", "linkText"],
+        ["css=.notmobile > li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Gift Cards')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/gift-cards')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gift Cards')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5876ed1a-0223-4b74-8e42-0eab1b08ead9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=$25 Virtual Gift Card",
+      "targets": [
+        ["linkText=$25 Virtual Gift Card", "linkText"],
+        ["css=.item-box:nth-child(1) .details a", "css:finder"],
+        ["xpath=//a[contains(text(),'$25 Virtual Gift Card')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[3]/div/div[2]/div[2]/div[2]/div/div/div/div/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/25-virtual-gift-card')])[2]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'$25 Virtual Gift Card')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54018364-29cd-4a40-9340-be33190a90f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-to-cart-button-43",
+      "targets": [
+        ["id=add-to-cart-button-43", "id"],
+        ["css=#add-to-cart-button-43", "css:finder"],
+        ["xpath=//button[@id='add-to-cart-button-43']", "xpath:attributes"],
+        ["xpath=//form[@id='product-details-form']/div/div/div[2]/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e04af0cf-9742-4cf4-a95c-e52041d9a420",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-menu",
+      "targets": [
+        ["css=.header-menu", "css:finder"],
+        ["xpath=//div[6]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88817b1a-560e-4c8e-850a-a5f824c8372b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Digital downloads",
+      "targets": [
+        ["linkText=Digital downloads", "linkText"],
+        ["css=.notmobile > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Digital downloads')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/digital-downloads')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Digital downloads')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d7bd32e-5eb0-481a-9025-832ec113e42c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item-box:nth-child(1) img",
+      "targets": [
+        ["css=.item-box:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Picture of If You Wait (donation)']", "xpath:img"],
+        ["xpath=//div[@id='main']/div/div[3]/div/div[2]/div[2]/div[2]/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aa4a8a3-6e50-4743-9a7a-27dcd8d10826",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item-box:nth-child(1) img",
+      "targets": [
+        ["css=.item-box:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Picture of Science & Faith']", "xpath:img"],
+        ["xpath=//form[@id='product-details-form']/div/div[3]/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1bacd58-0e1b-4425-a579-fdf66099185d",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-to-cart-button-36",
+      "targets": [
+        ["id=add-to-cart-button-36", "id"],
+        ["css=#add-to-cart-button-36", "css:finder"],
+        ["xpath=//button[@id='add-to-cart-button-36']", "xpath:attributes"],
+        ["xpath=//form[@id='product-details-form']/div/div/div[2]/div[5]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "84c1ffd6-d914-4965-98dd-c4fab2943b77",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3a0e34d3-1bf9-4879-a77c-d3998c9926a8"]
+  }],
+  "urls": [],
+  "plugins": []
+}
